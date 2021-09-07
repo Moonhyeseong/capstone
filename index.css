@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+}
+.navbar-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1280px;
+  margin: auto;
+}
+.navbar-menu a {
+  color: black;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+.navbar-menu button {
+  border: white;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  color: whitesmoke;
+  background-color: rgb(109, 111, 211);
+}
+img {
+  background-color: transparent;
+  width: 200px;
+}
+input:focus {
+  outline: none;
+}
+#navbar-about {
+  font-weight: 600;
+  color: white;
+}
+#banner {
+  width: 100%;
+  background-color: rgba(192, 160, 250, 0.596);
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+#search-bar-container {
+  position: absolute;
+  margin: auto;
+  width: 1280px;
+}
+#search-bar {
+  display: flex;
+  margin: auto;
+  padding-top: 100px;
+  width: 500px;
+  border-bottom: 3px solid whitesmoke;
+}
+#search-bar i {
+  color: black;
+  padding-right: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+#search-bar input {
+  color: rgba(0, 0, 0, 0.473);
+  text-align: center;
+  font-size: 1.5rem;
+  width: 500px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+}
+#search-bar input::placeholder {
+  color: rgba(0, 0, 0, 0.473);
+  text-align: center;
+  font-size: 1.5rem;
+}
+#search-bar-container span {
+  margin: 0;
+  color: white;
+}
+#description {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  flex-direction: column;
+}
+#description-small {
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+}
+#description-large {
+  font-size: 3rem;
+}
+#search-bar-container img {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+#jobs {
+  top: 40px;
+}
+#jobs2 {
+  top: 50px;
+  right: 0px;
+}
+#navbar-about {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#job-categories-container {
+  background-color: rgba(192, 160, 250, 0.596);
+  width: 100%;
+  height: auto;
+}
+#job-categories {
+  display: flex;
+  justify-content: space-evenly;
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
+  background-color: white;
+  margin: auto;
+  width: 1280px;
+  height: auto;
+}
+#job-categories div {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#job-categories i {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+#job-categories span {
+  font-size: 1.1em;
+  font-weight: 400;
+}
