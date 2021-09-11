@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script src="https://kit.fontawesome.com/b4bd48824f.js" crossorigin="anonymous"></script>
+    <style>
+      input::placeholder {
+        font-size: 1.3rem;
+      }
+      input {
+        border: none;
+        margin-left: 1rem;
+        font-size: 1.3rem;
+      }
+      button {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 400px;
+        height: 50px;
+        border: none;
+        font-size: 1.5rem;
+        border-radius: 25px;
+        color: white;
+        background-color: slateblue;
+      }
+      a {
+        text-decoration: none;
+        color: gray;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar-container">
+      <div class="navbar">
+        <a href="index.html"><img src="images/LOGO2.png" class="navbar-LOGO" /></a>
+        <div class="navbar-menu">
+          <a id="navbar-about" href="about.html" style="text-decoration: none">About</a>
+          <a href="search.html" style="text-decoration: none">공고탐색</a>
+          <a href="mypage.html" style="text-decoration: none">마이페이지</a>
+          <a href="login.html" style="text-decoration: none">로그인</a>
+          <a href="signin.html" style="text-decoration: none"><button>회원가입</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="login-container" style="width: 100%">
+      <div style="margin: auto; margin-top: 5rem; width: 600px; height: 400px; border: 2px solid rgb(209, 209, 209); text-align: center; border-radius: 8px">
+        <div style="margin-top: 3rem; font-size: 2rem">LOGIN</div>
+        <div style="margin-top: 2rem; border: 1px solid rgb(209, 209, 209); margin-left: 2rem; margin-right: 2rem">
+          <div style="border-bottom: 1px solid rgb(209, 209, 209)">
+            <i class="fas fa-user" style="margin-left: 1rem; color: silver"></i><input style="width: 480px; height: 50px" type="text" placeholder="ID" />
+          </div>
+          <i class="fas fa-unlock-alt" style="margin-left: 1rem; color: silver"></i
+          ><input style="width: 480px; height: 50px" type="text" placeholder="password" />
+        </div>
+        <button>LOGIN</button><br />
+        <a href="login.html">아이디 찾기</a>
+        <a href="login.html" style="margin-left: 1rem; margin-right: 1rem">비밀번호 찾기</a>
+        <a href="signin.html">회원가입</a>
+      </div>
+    </div>
+  </body>
+</html>
